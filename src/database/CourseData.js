@@ -19,7 +19,7 @@ var courseData = [
       price: 1500,
       instructor: "Joakim",
       image:
-        "https://i.ibb.co/RyXJYWx/django-python-logo-apress-the-definitive-guide-to-django-web-development-11562875828mqany5qert.png",
+        "https://i.ibb.co/0jHqtM0/javascript.png",
     },
     {
       id: 4,
@@ -41,7 +41,7 @@ var courseData = [
       price: 1800,
       instructor: "Jeanette Ljungkvist",
       image:
-        "https://i.ibb.co/zbZS16P/png-transparent-android-software-development-computer-icons-android-logo-grass-cartoon.png",
+        "https://i.ibb.co/2NjWysx/download.png",
     },
     {
       id: 7,

@@ -20,7 +20,7 @@ const Course = (props) => {
                                     <p> Price: {price} SEK</p>
                                 
                                 </Card.Text>
-                                <Button variant="primary">Go somewhere</Button>
+                                <Button variant="warning" onClick = {() => props.handleCourse(props.course)}><FontAwesomeIcon icon={faShoppingCart} /> Enroll Now</Button>
                         </Card.Body>
                 </Card>
                 </Stack>
