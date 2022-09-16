@@ -10,8 +10,8 @@ const Course = (props) => {
     return (
 
         <Container fluid>
-              <Stack direction="horizontal" gap={5}>
-                <Card style={{ width: '18rem' }}>
+            <Stack direction="horizontal" gap={5}>
+                <Card style={{ width: '18rem', border:'0.1rem solid orange',marginTop:'1rem', display: 'grid'}}>
                     <Card.Img variant="top" src={image} />
                         <Card.Body>
                             <Card.Title>Couse Title: <span className="course-name">{name}</span></Card.Title>
@@ -23,7 +23,7 @@ const Course = (props) => {
                                 <Button variant="warning" onClick = {() => props.handleCourse(props.course)}><FontAwesomeIcon icon={faShoppingCart} /> Enroll Now</Button>
                         </Card.Body>
                 </Card>
-                </Stack>
+            </Stack>
             
         </Container>
     );
