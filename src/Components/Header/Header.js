@@ -8,9 +8,9 @@ const Header = () => {
         <Navbar.Brand href="#home">3J Coder</Navbar.Brand>
         <Nav className="mr-auto">
           <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Jahirul</Nav.Link>
-          <Nav.Link href="#pricing">Johokim</Nav.Link>
-          <Nav.Link href="#pricing">Jeanette</Nav.Link>
+          <Nav.Link href="#jahirul">Jahirul</Nav.Link>
+          <Nav.Link href="#joyokim">Johokim</Nav.Link>
+          <Nav.Link href="#jeanette">Jeanette</Nav.Link>
           
         </Nav>
         <Form inline>
