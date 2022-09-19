@@ -1,27 +1,31 @@
 import React from "react";
 import "./footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <div>
       <body>
         <footer>
-          <div className="footer-content">
-            <h3>3J Coder</h3>
-
-            <ul className="socials">
-              <li>
-                <a href="#"><img src="/images/facebook.png" alt="facebook" /></a>
-              </li>
-              <li><a href="#"><img src="/images/twitter.png" alt="twitter" /></a>
-              </li>
-              <li>
-                <a href="#"><img src="/images/linkedin.png" alt="linkedin" /></a>
-              </li>
-              <li>
-                <a href="#"><img src="/images/youtube.png" alt="youtube" /></a>
-              </li>
-            </ul>
+          <div className="footer-container">
+            <div className="footer-links">
+              <div className="footer-link-wrapper">
+                <div class="footer-link-items">
+                  <h2>Contact Us</h2>
+                  <Link to="/">Contact</Link>
+                  <Link to="/">Support</Link>
+                </div>
+              </div>
+              <div className="footer-link-wrapper">
+                <div class="footer-link-items">
+                  <h2>Social Media</h2>
+                  <Link to="/">LinkedIn</Link>
+                  <Link to="/">Facebook</Link>
+                  <Link to="/">Youtube</Link>
+                  <Link to="/">Twitter</Link>
+                </div>
+              </div>
+            </div>
           </div>
         </footer>
       </body>
@@ -30,3 +34,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
