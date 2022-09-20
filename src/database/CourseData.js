@@ -3,7 +3,7 @@ var courseData = [
       id: 1,
       name: "JavaScript",
       price: 1000,
-      instructor: "Jahirul haq",
+      instructor: "Jahirul Haq",
       image: "https://i.ibb.co/0jHqtM0/javascript.png",
     },
     {
@@ -17,7 +17,7 @@ var courseData = [
       id: 3,
       name: "Django",
       price: 1500,
-      instructor: "Joakim",
+      instructor: "Joakim Engström",
       image:
         "https://i.ibb.co/0jHqtM0/javascript.png",
     },
@@ -25,14 +25,14 @@ var courseData = [
       id: 4,
       name: "Python",
       price: 800,
-      instructor: "Jahirul",
+      instructor: "Jahirul Haq",
       image: "https://i.ibb.co/RYz7x04/Python-logo.jpg",
     },
     {
       id: 5,
       name: "Java",
       price: 1300,
-      instructor: "Joakim",
+      instructor: "Joakim Engström",
       image: "https://i.ibb.co/z7VM47t/images.png",
     },
     {
@@ -47,7 +47,7 @@ var courseData = [
       id: 7,
       name: "Front-end Development",
       price: 1600,
-      instructor: "jahirul haq",
+      instructor: "Jahirul Haq",
       image:
         "https://i.ibb.co/fY4ZDzf/must-have-frontend-development-bundle-1-638.jpg",
     },
@@ -55,7 +55,7 @@ var courseData = [
       id: 8,
       name: "Back-end Development",
       price: 1900,
-      instructor: "Joakim",
+      instructor: "Joakim Engström",
       image:
         "https://i.ibb.co/DLWzJc9/backenddeveloper-2502825a14ff440eb775dc4244e7ed4d.png",
     },
@@ -70,14 +70,14 @@ var courseData = [
       id: 10,
       name: "C programming",
       price: 800,
-      instructor: "jahirul haq",
+      instructor: "Jahirul Haq",
       image: "https://i.ibb.co/DYwPF4X/C-programming-1024x530.png",
     },
     {
       id: 11,
       name: "MS Office",
       price: 500,
-      instructor: "Joakim",
+      instructor: "Joakim Engström",
       image: "https://i.ibb.co/2NjWysx/download.png",
     },
     {
@@ -91,14 +91,14 @@ var courseData = [
       id: 13,
       name: "GRE",
       price: 1300,
-      instructor: "jahirul haq",
+      instructor: "Jahirul Haq",
       image: "https://i.ibb.co/GsKJcfR/download.jpg",
     },
     {
       id: 14,
-      name: "Joakim",
+      name: "Spoken English",
       price: 400,
-      instructor: "Joakim",
+      instructor: "Joakim Engström",
       image: "https://i.ibb.co/BcMT1yL/6173-c-spoken-english.png",
     },
     {

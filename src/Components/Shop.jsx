@@ -1,10 +1,9 @@
 import React from "react";
-import courseData from "../../database/CourseData";
+import courseData from "../database/CourseData";
 import { useState } from "react";
-import Course from "../course/Course";
-import Cart from "../cart/Cart";
-//import "./Shop.css"
-
+import Course from "./Course";
+import Cart from "./Cart";
+import "./shop.css";
 
 const Shop = () => {
   const [course, setCourse] = useState(courseData);
@@ -16,18 +15,19 @@ const Shop = () => {
   };
 
   return (
-    <div className="shop-container">
-      
+    <div className="product-container">
       <div className="course-container">
         {course.map((course) => (
-          <Course course={course} key={course.id} handleCourse={handleCourse}></Course>
+          <Course
+            course={course}
+            key={course.id}
+            handleCourse={handleCourse}
+          ></Course>
         ))}
       </div>
-
       <div className="cart-container">
-          <Cart cart={cart}> </Cart>
+        <Cart cart={cart}> </Cart>
       </div>
-
     </div>
   );
 };

@@ -1,0 +1,32 @@
+.about-container {
+    display: flex;
+  }
+  
+  .about-text-container {
+    width: 100%;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  
+  .about-text-container > h1 {
+    color: black;
+    font-size: 60px;
+    margin-top: 100px;
+  }
+  
+  .about-text-container > p {
+    margin-top: 8px;
+    color: black;
+    font-size: 18px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  
+  .img-container {
+    background: url("/public/images/coding1.jpg") center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    
+  }
+  
