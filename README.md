@@ -20,3 +20,7 @@ There is also a fuction that adds the price to the shoppincart.
 
 ### Registration
 
+![image](https://user-images.githubusercontent.com/89445183/191615234-211db474-c1f1-4368-bf04-86d5d80bb990.png)
+
+Registration form with Firebase behind. Almost working. 
+
