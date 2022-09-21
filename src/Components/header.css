@@ -1,0 +1,10 @@
+.navBar{
+    background-color: #111;
+    color: #fff;
+    height: 100px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+}

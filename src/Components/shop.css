@@ -1,0 +1,23 @@
+.product-container {
+  background-color: blue;
+  display: flex;
+  
+ }
+
+.course-container{
+  
+}
+
+.card-style{
+  width: 18rem;
+  margin-top: 1rem;
+  display: grid;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.shopping-btn{
+  background-color: lightgrey;
+  border:none;
+}
+
+
