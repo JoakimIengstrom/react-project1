@@ -1,6 +1,5 @@
-import React, {useEffect} from "react"
-import {Header, Shop, Footer} from "../components"
-import "../components/shop.css"
+import React, { useEffect } from "react";
+import { Header, Shop, Footer } from "../components";
 
 const Products = () => {
   useEffect(() => {
@@ -9,11 +8,11 @@ const Products = () => {
 
   return (
     <div>
-        <Header/>
-        <Shop/>
-        <Footer/>
+      <Header />
+      <Shop />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Products
+export default Products;

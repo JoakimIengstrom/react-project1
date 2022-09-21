@@ -1,32 +1,63 @@
 .about-container {
-    display: flex;
-  }
-  
-  .about-text-container {
-    width: 100%;
-    text-align: center;
-    padding-left: 80px;
-    padding-right: 80px;
-  }
-  
+  display: flex;
+}
+
+.about-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.about-text-container > h1 {
+  color: black;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.about-text-container > p {
+  margin-top: 8px;
+  color: black;
+  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.img-container {
+  background: url("/public/images/coding1.jpg") center center/cover no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
   .about-text-container > h1 {
-    color: black;
-    font-size: 60px;
-    margin-top: 100px;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
-  
+
   .about-text-container > p {
-    margin-top: 8px;
-    color: black;
-    font-size: 18px;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
+    padding-bottom: 20px;
+    font-size: 12px;
   }
-  
+}
+
+@media screen and (max-width: 768px) {
+  .about-text-container > h1 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .about-text-container > p {
+    padding-bottom: 20px;
+    font-size: 12px;
+  }
+
   .img-container {
-    background: url("/public/images/coding1.jpg") center center/cover no-repeat;
-    height: 100vh;
-    width: 100%;
-    
+    display: none;
   }
-  
+}

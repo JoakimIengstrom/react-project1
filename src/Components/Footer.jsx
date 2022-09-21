@@ -14,6 +14,7 @@ const Footer = () => {
                   <h2>Contact Us</h2>
                   <Link to="/">Contact</Link>
                   <Link to="/">Support</Link>
+                  <Link to="/">FAQ</Link>
                 </div>
               </div>
               <div className="footer-link-wrapper">
@@ -34,4 +35,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
