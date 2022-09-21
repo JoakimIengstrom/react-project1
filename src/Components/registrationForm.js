@@ -2,6 +2,7 @@ import React, { useState, setState } from "react";
 import "./registrationForm.css";
 import { database } from "../firebase";
 import { ref, push, child, update } from "firebase/database";
+import { getAnalytics, logEvent } from "firebase/analytics";
 
 function RegistrationForm() {
   const [firstName, setFirstName] = useState(null);
@@ -9,6 +10,7 @@ function RegistrationForm() {
   const [email, setEmail] = useState(null);
   const [password, setPassword] = useState(null);
   const [confirmPassword, setConfirmPassword] = useState(null);
+  const analytics = getAnalytics();
 
   const handleInputChange = (e) => {
     const { id, value } = e.target;
@@ -29,7 +31,8 @@ function RegistrationForm() {
     }
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = (event) => {
+    event.preventDefault();
     let obj = {
       firstName: firstName,
       lastName: lastName,
@@ -40,11 +43,12 @@ function RegistrationForm() {
     const newPostKey = push(child(ref(database), "posts")).key;
     const updates = {};
     updates["/" + newPostKey] = obj;
+    logEvent(analytics, "Submitted Registration");
     return update(ref(database), updates);
   };
 
   return (
-    <div className="form">
+    <form onSubmit={(event) => handleSubmit(event)} className="form">
       <div className="form-body">
         <div className="username">
           <label className="form__label" for="firstName">
@@ -114,11 +118,11 @@ function RegistrationForm() {
         </div>
       </div>
       <div class="footer">
-        <button onClick={() => handleSubmit()} type="submit" class="btn">
+        <button type="submit" class="btn">
           Register
         </button>
       </div>
-    </div>
+    </form>
   );
 }
 

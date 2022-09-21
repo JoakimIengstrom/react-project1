@@ -15,7 +15,7 @@ const Cart = (props) => {
       <h6>Tax: {tax} </h6>
       <h6>
         {" "}
-        <b>Total Ammount: {totalPrice}</b>
+        <b>Total Amount: {totalPrice}</b>
       </h6>
       <Button variant="success">Place Order</Button>
     </div>

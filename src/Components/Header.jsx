@@ -27,7 +27,7 @@ const Header = () => {
               <Link to="/products">Courses</Link>
             </Nav.Link>
             <Nav.Link>
-              <Link to="/register">Registration</Link>
+              <Link to="/registration">Registration</Link>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

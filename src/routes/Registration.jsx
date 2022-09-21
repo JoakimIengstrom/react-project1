@@ -1,5 +1,6 @@
 import React, { useEffect } from "react"
-import {Header, Register, Footer} from "../components"
+import {Header, Footer} from "../components"
+import RegistrationForm from "../components/registrationForm";
 //import "../Components/shop.css"
 
 const Registration = () => {
@@ -10,7 +11,7 @@ const Registration = () => {
   return (
     <div>
         <Header/>
-        <Register/>
+        <RegistrationForm/>
         <Footer/>
     </div>
   )
