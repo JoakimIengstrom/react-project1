@@ -3,7 +3,7 @@ import courseData from "../../database/CourseData";
 import { useState } from "react";
 import Course from "../course/Course";
 import Cart from "../cart/Cart";
-//import "./Shop.css"
+import "./Shop.css"
 
 
 const Shop = () => {
