@@ -1,5 +1,5 @@
 import React from "react"
-import {Header, Register, Footer} from "../Components"
+import {Header, Register, Footer} from "../components"
 //import "../Components/shop.css"
 
 const Registration = () => {  

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import { HeroSection, Header, Footer } from "./Components";
+import { HeroSection, Header, Footer } from "./components";
 
 function App() {
   useEffect(() => {

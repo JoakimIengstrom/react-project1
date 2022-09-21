@@ -1,6 +1,6 @@
 import React from "react"
-import {Header, AboutPage, Footer} from "../Components"
-import "../Components/Shop"
+import {Header, AboutPage, Footer} from "../components"
+import "../components/Shop"
 
 const AboutUs = () => {
   return (
