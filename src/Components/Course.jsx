@@ -9,10 +9,8 @@ const Course = (props) => {
   return (
     <Container fluid>
       <Stack direction="horizontal" gap={5}>
-        <Card className="card-style"
-
-        >
-          <Card.Img variant="top" src={image} />
+        <Card className="card-style">
+          <Card.Img variant="top" src={image} className="course-img"/>
           <Card.Body>
             <Card.Title>
               Couse Title: <span className="course-name">{name}</span>
@@ -23,7 +21,7 @@ const Course = (props) => {
               </p>
               <p> Price: {price} SEK</p>
             </Card.Text>
-            <Button className="shopping-btn"
+            <Button 
               variant="warning"
               onClick={() => props.handleCourse(props.course)}
             >
