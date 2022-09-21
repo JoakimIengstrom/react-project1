@@ -7,11 +7,8 @@ import "./shop.css"
 const Course = (props) => {
   const { name, price, instructor, image } = props.course;
   return (
-    <Container fluid>
-      <Stack direction="horizontal" gap={5}>
-        <Card className="card-style"
-
-        >
+    <Container className="course-style">      
+        <Card className="card-style">
           <Card.Img variant="top" src={image} />
           <Card.Body>
             <Card.Title>
@@ -25,13 +22,11 @@ const Course = (props) => {
             </Card.Text>
             <Button className="shopping-btn"
               variant="warning"
-              onClick={() => props.handleCourse(props.course)}
-            >
+              onClick={() => props.handleCourse(props.course)}>
               <FontAwesomeIcon icon={faShoppingCart} /> Enroll Now
             </Button>
           </Card.Body>
-        </Card>
-      </Stack>
+        </Card>      
     </Container>
   );
 };

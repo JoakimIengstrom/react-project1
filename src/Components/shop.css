@@ -1,11 +1,21 @@
 .product-container {
-  background-color: blue;
-  display: flex;
+  background-color: lightblue;
+  display: flex;  
   
  }
+.course-container{ 
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;  
+}
 
-.course-container{
-  
+.course-style {
+  display: flex;
+  max-width: 400px;
+  justify-content: center;
+  margin-bottom: 30px;  
 }
 
 .card-style{
@@ -20,4 +30,27 @@
   border:none;
 }
 
+.body {  
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-basis: fit-content;
+  position: relative;
+}
 
+.cart {
+  margin-top: 20px;
+  margin-right: 20px;
+  border: solid 3px white;
+  padding: 10px;
+  min-width: 300px;
+}
+
+html {
+  max-width: 90%;
+  margin: auto;
+  padding: 30px;
+  background-color: lightgrey;
+}
