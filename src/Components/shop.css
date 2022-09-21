@@ -2,6 +2,15 @@
   max-width: 100%;
 }
 
+body {
+  max-width: 90%;
+  margin: auto;
+}
+
+html {
+  background-color: lightgray;
+}
+
 .course-header {
   height: 150px;
   padding-left: 50px;

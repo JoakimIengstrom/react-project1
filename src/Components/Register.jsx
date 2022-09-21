@@ -4,7 +4,7 @@ import RegistrationForm from "./registrationForm";
 const Register = () => {
   return (
     <>
-      <div className="about-container">
+      <div>
         <RegistrationForm/>
       </div>
     </>

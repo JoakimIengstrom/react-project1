@@ -3,9 +3,7 @@ import "./footer.css";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-  return (
-    <div>
-      <body>
+  return (          
         <footer>
           <div className="footer-container">
             <div className="footer-links">
@@ -28,9 +26,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-        </footer>
-      </body>
-    </div>
+        </footer>       
   );
 };
 
