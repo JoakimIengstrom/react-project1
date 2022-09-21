@@ -1,6 +1,6 @@
-import React, {useEffect} from 'react'
-import {Header, Shop, Footer} from "../components"
-import "../components/shop.css"
+import React, {useEffect} from "react"
+import {Header, Shop, Footer} from "../Components"
+import "../Components/shop.css"
 
 const Products = () => {
   useEffect(() => {
