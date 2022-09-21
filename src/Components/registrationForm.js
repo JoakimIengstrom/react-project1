@@ -1,5 +1,8 @@
 import React, { useState, setState } from "react";
 import "./registrationForm.css";
+import { database } from "../firebase";
+import { ref, push, child, update } from "firebase/database";
+
 function RegistrationForm() {
   const [firstName, setFirstName] = useState(null);
   const [lastName, setLastName] = useState(null);
@@ -27,7 +30,17 @@ function RegistrationForm() {
   };
 
   const handleSubmit = () => {
-    console.log(firstName, lastName, email, password, confirmPassword);
+    let obj = {
+      firstName: firstName,
+      lastName: lastName,
+      email: email,
+      password: password,
+      confirmPassword: confirmPassword,
+    };
+    const newPostKey = push(child(ref(database), "posts")).key;
+    const updates = {};
+    updates["/" + newPostKey] = obj;
+    return update(ref(database), updates);
   };
 
   return (

@@ -1,8 +1,11 @@
-import React from "react"
+import React, { useEffect } from "react"
 import {Header, Register, Footer} from "../components"
 //import "../Components/shop.css"
 
-const Registration = () => {  
+const Registration = () => {
+  useEffect(() => {
+    document.title = "Registration";
+  }, []);  
 
   return (
     <div>
