@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
-import "./shop.css"
+import "./shop.css";
 
 const Cart = (props) => {
   const cart = props.cart;

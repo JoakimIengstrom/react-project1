@@ -3,7 +3,7 @@
 }
 
 .about-text-container {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
@@ -32,7 +32,7 @@
   width: 100%;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .about-text-container > h1 {
     font-size: 25px;
     margin-top: 20px;
@@ -43,7 +43,6 @@
     padding-bottom: 20px;
     font-size: 12px;
   }
-
 }
 
 @media screen and (max-width: 768px) {
@@ -58,9 +57,7 @@
     font-size: 12px;
   }
 
-  .img-container{
+  .img-container {
     display: none;
   }
 }
-
-

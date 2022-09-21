@@ -1,15 +1,14 @@
-import React from 'react'
-import {Header, AboutPage, Footer} from "../components"
-//import "../components/shop.css"
+import React from "react";
+import { Header, AboutPage, Footer } from "../components";
 
 const AboutUs = () => {
   return (
     <div>
-        <Header/>
-        <AboutPage/>
-        <Footer/>
+      <Header />
+      <AboutPage />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default AboutUs
+export default AboutUs;
