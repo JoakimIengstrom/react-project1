@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
-import { Button, Card, Container, Stack } from "react-bootstrap";
+import { Button, Card, Container } from "react-bootstrap";
 import "./shop.css"
 
 const Course = (props) => {
