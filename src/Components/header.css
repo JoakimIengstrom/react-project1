@@ -1,0 +1,24 @@
+.navbar {
+  background-color: #111;
+  color: #fff;
+  height: 100px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+.navbar a:hover {
+  color: lightgrey;
+}
+
+.nav-link {
+  background-color: #111;
+}
+
+.navbar-logo {
+  height: 60px;
+}

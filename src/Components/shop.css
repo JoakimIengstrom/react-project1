@@ -1,0 +1,72 @@
+.product-container {
+  max-width: 100%;
+}
+
+.course-header {
+  height: 150px;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.course-header h1 {
+  font-size: 50px;
+}
+
+.course-header p {
+  font-size: 20px;
+}
+
+.course-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-container {
+  margin: auto;
+}
+
+.card-style {
+  width: 18rem;
+  margin-top: 1rem;
+  display: grid;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.btn-warning {
+  background-color: lightgrey;
+  border: none;
+}
+
+.btn-warning:hover {
+  transition: all 0.3s ease-out;
+  background-color: grey;
+  color: #242424;
+  transition: 250ms;
+}
+
+.cart-container {
+  background-color: lightgray;
+  margin: 50px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.course-img {
+  height: 250px;
+  width: 287px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .course-header h1 {
+    font-size: 35px;
+  }
+
+  .course-header p {
+    font-size: 15px;
+  }
+}
