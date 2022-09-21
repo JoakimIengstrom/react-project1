@@ -5,6 +5,5 @@ import Shop from "./Shop";
 import Footer from "./Footer";
 import HeroSection from "./HeroSection";
 import AboutPage from "./AboutPage";
-import Register from "./Register";
 
-export { Cart, Course, Header, Shop, Footer, HeroSection, AboutPage, Register };
+export { Cart, Course, Header, Shop, Footer, HeroSection, AboutPage };
