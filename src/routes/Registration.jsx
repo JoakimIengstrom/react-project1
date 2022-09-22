@@ -1,7 +1,7 @@
 import React, { useEffect } from "react"
 import {Header, Footer} from "../components"
 import RegistrationForm from "../components/registrationForm";
-//import "../Components/shop.css"
+import "../components/registrationForm.css"
 
 const Registration = () => {
   useEffect(() => {
